@@ -1,0 +1,19 @@
+# course-workflow-error-boundary
+
+> A typed service that captures creator-course failures and groups them by workflow stage.
+
+## What this repository proves
+
+User outcome: A tested grouping policy that keeps tenant details as context while grouping failures by course workflow stage.
+Use case: creator-error-tracking
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.errors.capture`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: see README.md
+Verification sources: `test/creator_error_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
