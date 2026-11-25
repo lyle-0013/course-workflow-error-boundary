@@ -51,3 +51,7 @@ The example above stays intentionally small. A few things to wire up for real us
 
 **Course Workflow Error Boundary: Observability**
 - **Course Workflow Error Boundary:** Capture on the server (`POST /v1/errors/capture`); scrub PII before sending. Flags (`/v1/flags`), metrics (`/v1/metrics`), and logs (`/v1/logs`) are separate modules on the same key.
+
+## Further reading
+
+- [Commerce Incident Evidence: Batch Ingestion for a Hosted KPI Dashboard Backend API](docs/commerce-incident-evidence-batch-ingestion-for-a-182ktk.md)
